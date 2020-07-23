@@ -1,0 +1,584 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "credito-web",
+        "version": "1.0.0",
+        "description": "credito-web"
+    },
+    "paths": {
+        "/api/v1/cliente/{rutcliente}": {
+            "get": {
+                "tags": [
+                    "cliente"
+                ],
+                "responses": {
+                    "200": {
+                        "examples": {
+                            "application/json": {
+                                "API_ObtenerInfoDatosCliente_Response_MT": {
+                                    "ES_MATRIZ": {
+                                        "FECHA_INICIO_BENEFICIO": "0000-00-00",
+                                        "ESTADO": "",
+                                        "FECHA_AFILIACION": "0000-00-00",
+                                        "FECHA_DESAFILIACION": "0000-00-00",
+                                        "EMPRESA": "",
+                                        "FECHA_TERMINO_BENEFICIO": "0000-00-00"
+                                    },
+                                    "ET_REL_CARGAS_FAMILIARES": "",
+                                    "ET_TEL": "",
+                                    "ES_PENSIONADO": {
+                                        "FECHA_INICIO_BENEFICIO": "0000-00-00",
+                                        "ESTADO": "",
+                                        "FECHA_AFILIACION": "0000-00-00",
+                                        "EPP": "",
+                                        "FECHA_DESAFILIACION": "0000-00-00",
+                                        "FECHA_TERMINO_BENEFICIO": "0000-00-00",
+                                        "PENSIONADO": ""
+                                    },
+                                    "ES_CARGA_FAMILIAR": {
+                                        "FECHA_INICIO_BENEFICIO": "0000-00-00",
+                                        "TIPO_CARGA": "",
+                                        "ESTADO": "",
+                                        "CARGA_FAMILIAR": "",
+                                        "FECHA_AFILIACION": "0000-00-00",
+                                        "FAENA": "",
+                                        "TRABAJADOR": "",
+                                        "FECHA_DESAFILIACION": "0000-00-00",
+                                        "TIPO_CAUSANTE": "",
+                                        "EMPRESA": "",
+                                        "FECHA_TERMINO_BENEFICIO": "0000-00-00"
+                                    },
+                                    "ET_EMAIL": "",
+                                    "ET_ADDRESS": "",
+                                    "ES_FAENA": {
+                                        "RUT": "",
+                                        "FECHA_INICIO_BENEFICIO": "0000-00-00",
+                                        "TIPO_CONVENIO": "",
+                                        "ESTADO": "",
+                                        "FECHA_AFILIACION": "0000-00-00",
+                                        "FAENA": "",
+                                        "COMPIN": "",
+                                        "FECHA_DESAFILIACION": "0000-00-00",
+                                        "EMPRESA": "",
+                                        "FECHA_TERMINO_BENEFICIO": "0000-00-00",
+                                        "TIPO_EMPRESA": "",
+                                        "IND_SECTOR": ""
+                                    },
+                                    "ES_BUT000": {
+                                        "INITIALS": "",
+                                        "CONTACT": "",
+                                        "ZZREGIMEN_SALUD": "",
+                                        "XUBNAME": "",
+                                        "LIQUID_DAT": "0000-00-00",
+                                        "NATIO": "",
+                                        "PREFIX1": "",
+                                        "CNTAX": "",
+                                        "MC_NAME2": "",
+                                        "TYPE": "",
+                                        "CNDSC": "",
+                                        "MC_NAME1": "",
+                                        "PARTNER": "",
+                                        "NAME_GRP1": "",
+                                        "NAME_GRP2": "",
+                                        "CHTIM": "00:00:00",
+                                        "TD_SWITCH": "",
+                                        "NATPERS": "",
+                                        "CHDAT": "0000-00-00",
+                                        "BP_EEW_DUMMY": "",
+                                        "NAME_LAST": "",
+                                        "TITLE_ACA1": "",
+                                        "PERSNUMBER": "",
+                                        "DB_KEY": "AAAAAAAAAAAAAAAAAAAAAA==",
+                                        "AUGRP": "",
+                                        "TITLE_LET": "",
+                                        "TITLE_ACA2": "",
+                                        "PREFIX2": "",
+                                        "NOT_RELEASED": "",
+                                        "NICKNAME": "",
+                                        "FOUND_DAT": "0000-00-00",
+                                        "BPEXT": "",
+                                        "BU_SORT1": "",
+                                        "SOURCE": "",
+                                        "BU_SORT2": "",
+                                        "NAME_LST2": "",
+                                        "LEGAL_ORG": "",
+                                        "CHUSR": "",
+                                        "NAMEFORMAT": "",
+                                        "NOT_LG_COMPETENT": "",
+                                        "NAME_ORG4": "",
+                                        "PARTNER_GUID": "AAAAAAAAAAAAAAAAAAAAAA==",
+                                        "MARST": "",
+                                        "NAME_ORG1": "",
+                                        "DEATHDT": "0000-00-00",
+                                        "NAME_ORG2": "",
+                                        "NAME_ORG3": "",
+                                        "BPKIND": "",
+                                        "MEM_HOUSE": 0,
+                                        "BIRTHPL": "",
+                                        "NAME1_TEXT": "",
+                                        "LANGU_CORR": "",
+                                        "TITLE_ROYL": "",
+                                        "VALID_TO": 0,
+                                        "BU_LANGU": "",
+                                        "ZZREGIMEN_PREVI": "",
+                                        "ZZBP_INI_ACTIV": "0000-00-00",
+                                        "BU_GROUP": "",
+                                        "XSEXU": "",
+                                        "NAME_LAST2": "",
+                                        "EMPLO": "",
+                                        "VALID_FROM": 0,
+                                        "XSEXM": "",
+                                        "NAMCOUNTRY": "",
+                                        "PRINT_MODE": "",
+                                        "XSEXF": "",
+                                        "LEGAL_ENTY": "",
+                                        "PARTGRPTYP": "",
+                                        "XDELE": "",
+                                        "ZZNUM_INVITACION": "",
+                                        "CLIENT": "",
+                                        "CHILDREN": "00",
+                                        "NAMEMIDDLE": "",
+                                        "XPCPT": "",
+                                        "CRUSR": "",
+                                        "BU_LOGSYS": "",
+                                        "LOCATION_1": "0000000",
+                                        "LOCATION_2": "00000",
+                                        "BIRTHDT": "0000-00-00",
+                                        "LOCATION_3": 0,
+                                        "PERNO": "00000000",
+                                        "IS_ORG_CENTRE": "",
+                                        "TITLE": "",
+                                        "ZZBP_EMP_COMPIN": "",
+                                        "XBLCK": "",
+                                        "ADDRCOMM": "",
+                                        "NAME_FIRST": "",
+                                        "CRDAT": "0000-00-00",
+                                        "IND_SECTOR": "",
+                                        "JOBGR": "",
+                                        "CRTIM": "00:00:00"
+                                    },
+                                    "ET_TRABAJADOR": "",
+                                    "ET_ESTADO": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "cliente"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "description": "{\n    \"nombres\": \"\",\n    \"apellidos\": \"\",\n    \"fecha_nacimiento\": \"\",\n    \"nacionalidad\": \"\",\n    \"sexo\": \"\",\n    \"telefono\": \"\",\n    \"direccion\": \"\",\n    \"region\": \"\",\n    \"comuna\": \"\",\n}",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "in": "body",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "error": {
+                                    "code": "",
+                                    "msg": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Actualizacion de datos de usuario"
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "Rut del cliente a consultar",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/deudaccaf": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "deuda": "10000"
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/empresas": {
+            "get": {
+                "tags": [
+                    "cliente"
+                ],
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "empresas": [
+                                    {
+                                        "rutempleador": "1-9",
+                                        "nombreempleador": "Empresa X1",
+                                        "tipocontrato": "fijo"
+                                    },
+                                    {
+                                        "rutempleador": "2-8",
+                                        "nombreempleador": "Empresa X2",
+                                        "tipocontrato": "indefinido"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "Rut del cliente a consultar",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/mandato": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "prepago": "0"
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/pep/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "pep": "0"
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/creditos/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "creditos": [
+                                    {
+                                        "nroop": "12344313",
+                                        "fechacolocacion": "20200101"
+                                    },
+                                    {
+                                        "nroop": "32123432",
+                                        "fechacolocacion": "20200301"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/rentas/caportes/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "rentas": [
+                                    {
+                                        "rutempleador": "1-8",
+                                        "tipo": "variable",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "rutempleador": "1-9",
+                                        "tipo": "fija",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/rentas/": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "rentas": [
+                                    {
+                                        "rutempleador": "1-8",
+                                        "tipo": "variable",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "rutempleador": "1-9",
+                                        "tipo": "fija",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "400": {
+
+                    },
+                    "401": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        },
+        "/api/v1/cliente/{rutcliente}/rentas/infocliente": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "schema": {
+                            "type": "string"
+                        },
+                        "examples": {
+                            "application/json": {
+                                "rentas": [
+                                    {
+                                        "rutempleador": "1-8",
+                                        "tipo": "variable",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            },
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "rutempleador": "1-9",
+                                        "tipo": "fija",
+                                        "renta": [
+                                            {
+                                                "periodo": "202006",
+                                                "monto": "250000"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "401": {
+
+                    },
+                    "400": {
+
+                    },
+                    "500": {
+
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "rutcliente",
+                    "description": "rut cliente",
+                    "in": "path",
+                    "required": true,
+                    "type": "string"
+                }
+            ]
+        }
+    }
+}
